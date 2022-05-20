@@ -1,0 +1,62 @@
+Calibration Log
+-----------------------------
+[Time: 11/04/2022, 17:35:12];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 11/04/2022, 17:35:12];	Event: System initiated!
+[Time: 11/04/2022, 17:37:08];	Event: Component [anode case] Nr.[5]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.749, -182.217, 15.945, 180.0, 0.0, -90.0]
+[Time: 11/04/2022, 17:37:36];	Event: Component [anode case] Nr.[6]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.749, -204.817, 15.945, -180.0, 0.0, -90.0]
+[Time: 11/04/2022, 17:38:41];	Event: Component [anode case] Nr.[7]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.749, -228.017, 15.945, 180.0, 0.0, -90.0]
+[Time: 11/04/2022, 17:39:17];	Event: Component [anode case] Nr.[8]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.549, -250.817, 15.945, 180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 13/04/2022, 16:33:21];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 13/04/2022, 16:33:21];	Event: System initiated!
+[Time: 13/04/2022, 16:40:13];	Event: Component [anode spacer] and [cathode spacer] Nr.[1]'s grab position has been updated- RailPO: [225.0]; GrabPO: [142.348, -90.417, 16.227, 180.0, 0.0, -90.0]
+[Time: 13/04/2022, 16:41:43];	Event: Component [anode] Nr.[1]'s grab position has been updated- RailPO: [675.0]; GrabPO: [142.148, -89.617, 16.151, -180.0, 0.0, -90.0]
+[Time: 13/04/2022, 16:44:08];	Event: Component [separator] Nr.[1]'s grab position has been updated- RailPO: [900.0]; GrabPO: [143.248, -90.017, 15.956, -180.0, 0.0, -90.0]
+[Time: 13/04/2022, 16:52:55];	Event: Component [cathode case] Nr.[1]'s grab position has been updated- RailPO: [1350.0]; GrabPO: [141.948, -89.817, 19.156, -180.0, 0.0, -90.0]
+[Time: 13/04/2022, 16:58:45];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 13/04/2022, 16:58:45];	Event: System initiated!
+[Time: 13/04/2022, 17:29:53];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 13/04/2022, 17:29:53];	Event: System initiated!
+[Time: 13/04/2022, 17:36:15];	Event: Component [cathode case] Nr.[1]'s drop position has been updated: [91.413, 198.05, 60.475, -180.0, -7.0, 90.0]
+
+-----------------------------
+[Time: 14/04/2022, 08:32:04];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 14/04/2022, 08:32:04];	Event: System initiated!
+[Time: 14/04/2022, 08:39:19];	Event: Component [cathode case] Nr.[1]'s drop position has been updated: [91.413, 198.05, 60.075, -180.0, 0.0, 90.0]
+[Time: 14/04/2022, 08:47:50];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 14/04/2022, 08:47:51];	Event: System initiated!
+[Time: 14/04/2022, 08:59:33];	Event: Component [separator] Nr.[1]'s drop position has been updated: [91.113, 198.05, 57.675, -180.0, 0.0, 90.0]
+[Time: 14/04/2022, 09:02:15];	Event: Initiating testing procedure for AssemblyRobot...
+[Time: 14/04/2022, 09:02:15];	Event: System initiated!
+[Time: 14/04/2022, 09:07:33];	Event: Component [anode spacer] and [cathode spacer] Nr.[1]'s drop position has been updated: [92.313, 197.05, 55.275, -180.0, 0.0, 90.0]
+[Time: 14/04/2022, 09:11:24];	Event: Component [anode] Nr.[1]'s drop position has been updated: [91.713, 197.05, 56.675, -180.0, 0.0, 90.0]
+[Time: 14/04/2022, 09:54:58];	Event: Component [cathode] Nr.[1]'s drop position has been updated: [91.713, 197.15, 57.0, 180.0, 0.0, 90.0]
+[Time: 14/04/2022, 11:04:29];	Event: Component [separator] Nr.[1]'s grab position has been updated- RailPO: [900.0]; GrabPO: [143.048, -90.217, 15.956, 180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 21/04/2022, 15:17:27];	Event: Component [anode case] Nr.[1]'s grab position has been updated- RailPO: [0.0]; GrabPO: [141.749, -90.217, 15.745, -180.0, 0.0, -90.0]
+[Time: 21/04/2022, 15:21:32];	Event: Component [anode spacer] and [cathode spacer] Nr.[1]'s grab position has been updated- RailPO: [225.0]; GrabPO: [142.148, -90.217, 17.027, 180.0, 0.0, -90.0]
+[Time: 21/04/2022, 15:24:40];	Event: Component [separator] Nr.[1]'s grab position has been updated- RailPO: [900.0]; GrabPO: [142.648, -90.017, 17.156, 180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 22/04/2022, 09:53:54];	Event: Component [cathode] Nr.[1]'s grab position has been updated- RailPO: [1125.0]; GrabPO: [141.948, -90.617, 15.956, -180.0, 0.0, -90.0]
+[Time: 22/04/2022, 09:55:38];	Event: Component [anode] Nr.[1]'s grab position has been updated- RailPO: [675.0]; GrabPO: [142.148, -89.817, 16.151, -180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 09/05/2022, 16:57:23];	Event: Component [anode case] Nr.[1]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.349, -90.217, 15.745, -180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 10/05/2022, 16:48:09];	Event: Component [anode case] Nr.[1]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.349, -90.417, 15.745, 180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 13/05/2022, 16:22:18];	Event: Component [anode case] Nr.[1]'s grab position has been updated- RailPO: [0.0]; GrabPO: [142.349, -89.817, 15.945, -180.0, 0.0, -90.0]
+[Time: 13/05/2022, 16:24:55];	Event: Component [anode spacer] and [cathode spacer] Nr.[1]'s grab position has been updated- RailPO: [225.0]; GrabPO: [142.748, -90.417, 16.827, 180.0, 0.0, -90.0]
+[Time: 13/05/2022, 16:35:04];	Event: Component [spring] Nr.[1]'s grab position has been updated- RailPO: [425.0]; GrabPO: [169.534, -93.135, 12.641, 90.0, 0.0, -90.0]
+[Time: 13/05/2022, 16:48:52];	Event: Component [anode] Nr.[1]'s grab position has been updated- RailPO: [675.0]; GrabPO: [142.748, -89.817, 16.151, 180.0, 0.0, -90.0]
+[Time: 13/05/2022, 16:50:14];	Event: Component [separator] Nr.[1]'s grab position has been updated- RailPO: [900.0]; GrabPO: [143.048, -90.017, 16.756, 180.0, 0.0, -90.0]
+[Time: 13/05/2022, 16:51:34];	Event: Component [cathode] Nr.[1]'s grab position has been updated- RailPO: [1125.0]; GrabPO: [142.548, -90.417, 15.956, 180.0, 0.0, -90.0]
+[Time: 13/05/2022, 16:53:12];	Event: Component [cathode case] Nr.[1]'s grab position has been updated- RailPO: [1350.0]; GrabPO: [142.348, -89.817, 18.556, 180.0, 0.0, -90.0]
+
+-----------------------------
+[Time: 17/05/2022, 11:35:16];	Event: Component [spring] Nr.[1]'s grab position has been updated- RailPO: [425.0]; GrabPO: [168.734, -93.135, 12.641, 90.0, 0.0, -90.0]

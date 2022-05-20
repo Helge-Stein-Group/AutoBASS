@@ -1,0 +1,339 @@
+Hight and Pose for Grabing 1st. row of:
+
+1.Cathode: 
+    Sucktion:
+	Pose: [146, -100, 40.0, 90.0, 0.0, -90.0]
+	Joints: [-17.2579, 25.4422, 40.4727, -63.3498, 32.9754, 129.2735]
+	H = 28 mm (with TCP_SK:[11, 15, 65, 0, -60, 0])
+
+2.Anode:
+    Grabing:
+    Pose: [171.5,-99,23,90,0,-90]
+	joints: [-18.3772, 62.2927, 47.609, 28.0621, -107.717, 9.2149]
+	H = 23 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+    Sucktion:
+    Pose: [146, -101, 40.0, 90.0, 0.0, -90.0]
+	Joints: [-17.2579, 25.4422, 40.4727, -63.3498, 32.9754, 129.2735]
+	H = 30 mm (with TCP_SK:[11, 15, 65, 0, -60, 0])
+
+3.Separater:
+    Sucktion:
+    Pose: [147.0, -99.0, 40.0, 90.0, 0.0, -90.0]
+    Joints: [-16.7528,25.6484,40.1232,-62.8364,33.2246,129.2108]
+    H = 29 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])    
+
+2.Spring:
+    Grabing:
+	Pose: [172,-98.000,40,90.000,0.000,-90.000]
+	Joints: [-17.8237,62.2895,47.5356,28.6236,-107.5604,9.3504] 
+	H = 27.5 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+3.Spacer:
+    Grabing:
+	Pose: [148.4, -101.5, 40, 90.0, 0.0, -90.0]
+	joints: [-18.3771, 62.2927, 47.609, 28.0621, -107.717, 9.2149]
+	H = 28 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+    Sucktion:
+    Pose: [146, -100, 40, 90, 0, -90]
+    Joints: [-17.1375,25.7377,39.9717,-62.9923,33.1122,128.9780]
+    H = 28 mm (with TCP_SK:[11, 15, 65, 0, -60, 0])
+
+4.Cathode Case:
+    Sucktion:
+    Pose: [145, -101, 40, 90, 0, -90]
+    Joints: [-17.1375,25.7377,39.9717,-62.9923,33.1122,128.9780]
+    H = 28 mm (with TCP_SK:[11, 15, 65, 0, -60, 0])
+
+5.Anode Case:
+    Sucktion:
+    Pose: [145, -101.5, 40.0, 90.0, 0.0, -90.0]
+    Joints: [-17.9597, 25.2892, 40.7314, -63.9411, 32.6723, 129.2144]
+    H = 32ra. mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+Droping spring on black post:
+	Pose: [133.876, 202.773, 40.0, 90.0, 77.747, -90.0]
+	Joints: [69.1085, 66.5277, 21.7056, 36.374, -88.5773, -1.0477]
+	H = 18 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+Droping on red Post:
+
+    Sucktion:
+    With Linear Axis Abs_Position: 920 mm
+    Pose: [89.0, 205.0, 50.0, -90.0, 0.0, 90.0]
+    Joints: [55.2489, 34.6864, 18.6646, 56.6826, 19.9417, -86.0351]
+    Sucktion CC: H = 7 mm (with TCP_SK:[11, 15, 65, 0, -60, 0])
+
+    Gripper:
+    With Linear Axis Abs_Position: 920 mm
+    Pose: [95.509, 199, 100, 90, 45, -90]
+    Joints: [88.1266,52.2889,8.1155,88.3709,-89.0749,-29.5824]
+    H = 9 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+    Pressing:
+    With Linear Axis Abs_Position: 920 mm
+    Pose: [95.509,190.433,100.000,90.000,45.000,-90.000]
+    Joints: [88.0424,49.6730,13.7802,88.2486,-89.1252,-26.5334]
+    H = 7.7 mm (with TCP_GP:[32, 0, 19, 45, 0, 0])
+
+
+Hight for dropping of:
+
+1.Spring: 9 mm
+
+Linear Axis Abs_Positions for 1st row:
+
+	With Sucktion cup, TCP_SK:[11, 15, 65, 0, -60, 0]:
+						#1 Tray: 0 mm
+
+						#2 Tray: 225 mm
+
+						#3 Tray: 450 mm
+
+						#4 Tray: 675 mm
+
+						#5 Tray: 900 mm
+
+						#6 Tray: 1125 mm
+
+						#7 Tray: 1350 mm
+
+	With Gripper, TCP_GP:[32, 0, 19, 45, 0, 0]:
+
+						#1 Tray: Cannot reach
+
+						#2 Tray: 200 mm
+
+						#3 Tray: 425 mm
+
+						#4 Tray: 650 mm
+
+						#5 Tray: 875 mm
+
+						#6 Tray: 1100 mm
+
+						#7 Tray: 1325 mm
+
+                        #Post:   920 mm
+
+TransportRobot:
+
+Grabing assemblyed CC:
+
+    On the Post:
+
+	Pose: [-1,-326,100,0,0,-90] (with TCP: [28.272, 0, 98.35, 0, -90, 0])
+	Joints: [-90.3634,42.2592,33.2234,-0.3754,-75.4828,0.0941]
+	Grabing_H = 42 mm
+	Drop_H = 44 mm
+
+    1st Pose before Turning:
+
+    Pose:[-2.463,-99.972,327.865,0.000,0.000,-90.838]
+    Joints:[-90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    2nd Pose after Turning:
+    Pose:[2.463,99.972,327.865,0.000,0.000,89.162]
+    Joints:[90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    3rd Pose before reaching into the die:
+    Joints: [123.2648,-21.7099,-7.9832,-53.8124,44.0029,44.5161]
+
+    4th Pose: Reaching into crimper next to the die:
+    Pose: [-18,279.476,324.605,0.000,0.000,89.162]
+
+    5th Pose: Droping CC into the die:
+    Pose: [17,279.476,324.605,0.000,0.000,89.162]
+
+    6th Pose: Move the gripper away from die: Forward
+    Pose: [17,297,324.605,0.000,0.000,89.162]
+
+    7th Pose: Move the gripper away from die: Left
+    Pose: [-18,297,324.605,0.000,0.000,89.162]
+
+    8th Pose: Move the gripper away from die: Backwards
+    Pose: [-18,200,324.605,0.000,0.000,89.162]
+
+    9th Pose: Waiting for crimper to finish:
+    Pose: [-3.957,195.343,319.150,0.000,0.000,89.162]
+    Joints: [103.3685,-25.9790,-2.7904,-27.7447,31.8148,24.0836]
+
+    10th Pose: Magnet reaching into the crimper next to the die:
+    Pose: [-3.957,254.460,319.150,0.000,0.000,89.162]
+
+    11th Pose: Above the die, magnetic Grabing:
+    Pose: [21.783,254.460,319.150,0.000,0.000,89.162]
+
+    12th Pose: Move up 3 mm:
+    Pose: [21.783,254.460,322.150,0.000,0.000,89.162]
+
+    13th Pose: Move the Magnet with CC away from die: Backwards
+    Pose: [21.783,193.069,322.150,0.000,0.000,89.162]
+
+    14th Pose: Move to the 2nd Pose:
+    Joints: [90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    15th Pose: Move to the 1st Pose:
+    Joints: [-90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    16th Pose: Ready to drop the CC on Post:
+    Joints: [-93.3353,36.7050,46.8326,-3.3566,-83.5486,0.3776]
+
+    17th Pose: Drop CC on the Post:
+    Pose: [-7.677,-300.080,41.830,0.000,0.000,-90.000]
+
+    18th Pose: Perform Sliding:
+    Pose: [-32.133,-300.080,41.830,0.000,0.000,-90.000]
+
+    19th Pose: Move up:
+    Pose: [-32.133,-300.080,100,0.000,0.000,-90.000]
+
+    20th Pose: Grab the finished CC:
+    Joints: [-90.3634,42.2592,33.2234,-0.3754,-75.4828,0.0941]
+    H = 42 mm
+
+    20th Pose: Sorting Box:
+    Joints: [-172.4966,41.2344,35.4107,2.1994,-76.6545,-0.5079]
+
+    Higher Post:
+
+    Pose: [-2.5,-325.881,200,0,0,0] (with TCP: [28.272, 0, 98.35, -90, 90, 0])
+	Joints: [-90.9092,27.6302,30.9790,-1.0652,-58.6135,-180]
+	Grabing_H = 118 mm
+	Drop_H = 44 mm
+
+    1. Flip back:
+
+    Pose: [-2.5,-325.881,200,0,0,0] (with TCP: [28.272, 0, 98.35, -90, -90, -90])
+    Joints: [-90.9092, 15.9491, 18.4936, -1.6073, -34.4531, 1.3254]
+
+    2. 1st Pose before Turning:
+
+    Pose:[-2.463,-99.972,327.865,0.000,0.000,-90.838]
+    Joints:[-90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    3. 2nd Pose after Turning:
+
+    Pose:[2.463,99.972,327.865,0.000,0.000,89.162]
+    Joints:[90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    4. 3rd Pose before reaching into the die:
+
+    Joints: [123.2648,-21.7099,-7.9832,-53.8124,44.0029,44.5161]
+
+    5. Reaching into crimper next to the die:
+
+    Pose: [-17,279.476,324.605,0.000,0.000,89.162]
+
+    6. Droping CC into the die:
+
+    Pose: [17,279.476,324.605,0.000,0.000,89.162]
+
+    7. Move the gripper away from die: Forward
+    Pose: [17,297,324.605,0.000,0.000,89.162]
+
+    8. Move the gripper away from die: Left
+    Pose: [-18,297,324.605,0.000,0.000,89.162]
+
+    9. Move the gripper away from die: Backwards
+    Pose: [-18,200,324.605,0.000,0.000,89.162]
+
+    10. Waiting for crimper to finish:
+    Pose: [-3.957,195.343,319.150,0.000,0.000,89.162]
+    Joints: [103.3685,-25.9790,-2.7904,-27.7447,31.8148,24.0836]
+
+    11. Magnet reaching into the crimper next to the die:
+    Pose: [-3.957,254.460,319.150,0.000,0.000,89.162]
+
+    12. Above the die, magnetic Grabing:
+    Pose: [21.783,254.460,319.150,0.000,0.000,89.162]
+
+    13. Move up 3 mm:
+    Pose: [21.783,254.460,322.150,0.000,0.000,89.162]
+
+    14. Move the Magnet with CC away from die: Backwards
+    Pose: [21.783,193.069,322.150,0.000,0.000,89.162]
+
+    15. Move to the 2nd Pose:
+    Joints: [90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    16. Move to the 1st Pose:
+    Joints: [-90.0000,-43.6224,-17.4540,-0.9577,61.0798,0.4631]
+
+    17. Ready to drop the CC on Post:
+    Pose: [-4.584, -300.9, 140, 0, 0, -90.838]
+    Joints: [-90.917,20.7182,44.4843,-0.087,-65.2025,0.0365]
+
+    18. Drop CC on the Post:
+    Pose: [-4.584, -300.9, 103, 0, 0, -90.838]
+
+    19. Perform Sliding:
+    Pose: [21, -300.9, 103, 0, 0, -90.838]
+
+    20. Move up:
+    Pose: [21,-300.9,120,0.000,0.000,-90.000]
+
+
+Retrive Crimped CC
+
+
+TCP
+
+1# Magnet Gripper:
+FRF to Snap point: H = +18 mm, L = +14 mm
+
+Gripper: (28.272, 0, 98.35, 0, -90, 0)
+Magnet: (118.802, 0, 22.495, 0, 0, 0)
+
+Genoerator backup (Cathode case first):
+rail_po = {
+                'cathode case': 225, 
+                'cathode spacer': 675,
+                'cathode': 450,
+                'anode case': 271,
+                'separator': 317,
+                'anode': 542,
+                'anode spacer': 721,
+                'spring': 742,
+                },
+                grab_z_val = {
+                'cathode case': 28,
+                'cathode spacer': 28,
+                'cathode': 28,
+                'separator': 29,
+                'anode': 29,
+                'anode spacer': 28,
+                'spring': 28,
+                'anode case': 31
+                },
+                drop_z_val = {
+                'cathode case': 3,
+                'cathode spacer': 4,
+                'cathode': 4,
+                'separator': 4,
+                'anode': 4,
+                'anode spacer': 4.5,
+                'spring': 10,
+                'anode case': 8
+                },
+                start_po = {
+                'cathode case': [146.0, -101.0, 40.0, 90.0, 0.0, -90.0],
+                'cathode spacer': [146.0, -100.0, 40.0, 90.0, 0.0, -90.0],
+                'cathode': [146.0, -100.0, 40.0, 90.0, 0.0, -90.0],
+                'separator': [146.5, -100, 40.0, 90.0, 0.0, -90.0],
+                'anode': [146.0, -100.0, 40.0, 90.0, 0.0, -90.0],
+                'anode spacer': [146.0, -100.0, 40.0, 90.0, 0.0, -90.0],
+                'spring': [171.5, -97.5, 40.0, 90.0, 0.0, -90.0],
+                'anode case': [146.0, -101.0, 40.0, 90.0, 0.0, -90.0]
+                },
+                pre_drop_po ={
+                'cathode case': [87.0, 205.0, 50.0, -90.0, 0.0, 90.0],
+                'cathode spacer': [87.0, 205.0, 50.0, -90.0, 0.0, 90.0],
+                'cathode': [87.0, 206.0, 50.0, -90.0, 0.0, 90.0],
+                'separator': [87.5, 205.0, 50.0, -90.0, 0.0, 90.0],
+                'anode': [87.0, 205.0, 50.0, -90.0, 0.0, 90.0],
+                'anode spacer': [87.0, 206.0, 50.0, -90.0, 0.0, 90.0],
+                'spring': [95.509, 199, 100, 90, 45, -90],
+                'anode case': [87.0, 205.7, 50.0, -90.0, 0.0, 90.0]
+                }
