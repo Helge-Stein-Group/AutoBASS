@@ -21,17 +21,17 @@ data = pickle.load(open(r'/path/to/the/file/cell_data_published.pck','rb'))
 We did this using python 3.7 so make sure you're not using an outdated version.
 Then the data vriable will contain all data for all cells (failed or not).
 For each cell we record: 
-**raw data**. 
-I, V, t, index, Discharge_Capacity. 
+#### **raw data**
+I, V, t, index, Discharge_Capacity<br/>
 Essentially what the arbin spits out. Index is the cycle index. The Discharge_Capacity is this strange Arbin thing which we keep in
-**semi processed data**. 
-ocv_assembly, channel, start_time, closing_time, dayli_id, Vsm. 
+#### **semi processed data**
+ocv_assembly, channel, start_time, closing_time, dayli_id, Vsm<br/>
 We write down that potential of the first few seconds, which channel was used, when the cycling started, when the cell was closed, some id to track cells internally and a smoothed voltage profile
-**Cell images**. 
-anode_image, separator_image, cathode_image.   
+#### **Cell images**
+anode_image, separator_image, cathode_image<br/>
 Relatively self explanatory by name. If there is no image the camera faulted
-**Derived data**. 
-dQdV, Q. 
+#### **Derived data**
+dQdV, Q <br/>
 This is data we calculate
 
 ### Building my own
