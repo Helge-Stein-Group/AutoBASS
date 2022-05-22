@@ -3,7 +3,7 @@ AutoBASS deploys Automated Battery Assembly System. The motivation of this proje
 
 ![](figure1.png)
 
-## What are you here fore?
+## What are you here for?
 
 I'm here for:
 ### Data
