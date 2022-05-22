@@ -12,8 +12,10 @@ Please go to the data folder. There you will find four zip files which you need 
 2. cell_data_published.pck 2.zip.002
 3. cell_data_published.pck 2.zip.003
 4. cell_data_published.pck 2.zip.004
+
 The problem is that github only allows binary files of 25 mb size.
 What you'll get is a pickle file that you can read in in python via:
+
 ```python
 import pickle
 data = pickle.load(open(r'/path/to/the/file/cell_data_published.pck','rb'))
