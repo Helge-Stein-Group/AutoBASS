@@ -63,7 +63,7 @@ In principle, the assembly procedure in AutoBASS consists of three major steps i
 For each individual devices, corresponding script is implemented responsible for controlling i.e. performing the required actions at specific time for example Robots.py is responsible for all actions which will be implemented by the assemblying and transfering robots. The complete automatic assembly procedure is organized by Assembly.py. Robot_test_UI.py can be directly launched and is responsible for calibration of each positions associated with the accuracy of placing components. And if you need an easy approach to make cells, launching Autobass.py is highly recommened.
 
 ## Enviroment setup
-AutoBASS is very easy-to-read and user-friendly,  besides hardware drivers you just need a working python installation.
+AutoBASS is very easy-to-read and user-friendly,  besides hardware drivers you just need a working python 3.7 installation and the drivers for the corresponding hardware as well. If you are using mecademic robots you need to install their (awesome!) python driver too.
 
 ## Launch script
 AutoBaSS.py script can automatically guide you through the procedure from scratch:
