@@ -7,34 +7,49 @@ AutoBASS deploys Automated Battery Assembly System. The motivation of this proje
 
 I'm here for:
 ### Data
-Please go to the data folder. There you will find four zip files which you need to download and unzip:
+Please go to the data folder of this repo. There you will find four zip files which you need to download and unzip:
 1. cell_data_published.pck 2.zip.001
 2. cell_data_published.pck 2.zip.002
 3. cell_data_published.pck 2.zip.003
 4. cell_data_published.pck 2.zip.004
 
-The problem is that github only allows binary files of 25 mb size.
-What you'll get is a pickle file that you can read in in python via:
+The problem is that github only allows binary files of 25 mb size so unzip them somewhere and then you'll get a pickle file that you can read in in python via:
 
 ```python
 import pickle
 data = pickle.load(open(r'/path/to/the/file/cell_data_published.pck','rb'))
 ```
+
 We did this using python 3.7 so make sure you're not using an outdated version.
-Then the data vriable will contain all data for all cells (failed or not).
+Then the data variable will contain all data for all cells (failed or not) as a list of dictionaries.
 For each cell we record: 
 #### **raw data**
-I, V, t, index, Discharge_Capacity<br/>
+Keys: I, V, t, index, Discharge_Capacity<br/>
 Essentially what the arbin spits out. Index is the cycle index. The Discharge_Capacity is this strange Arbin thing which we keep in
 #### **semi processed data**
-ocv_assembly, channel, start_time, closing_time, dayli_id, Vsm<br/>
+Keys: ocv_assembly, channel, start_time, closing_time, dayli_id, Vsm<br/>
 We write down that potential of the first few seconds, which channel was used, when the cycling started, when the cell was closed, some id to track cells internally and a smoothed voltage profile
 #### **Cell images**
-anode_image, separator_image, cathode_image<br/>
+Keys: anode_image, separator_image, cathode_image<br/>
 Relatively self explanatory by name. If there is no image the camera faulted
 #### **Derived data**
-dQdV, Q <br/>
+Keys: dQdV, Q <br/>
 This is data we calculate
+
+#### Example Data access:
+
+Ok let's say we want to see the voltage profile of cell 42 the we do this:
+
+```python
+import pickle
+data = pickle.load(open(r'/path/to/the/file/cell_data_published.pck','rb'))
+
+plt.plot(data[42]['t'],data[42]['I'])
+plt.xlabel('Time [s]')
+plt.ylabel('Voltage [V]')
+```
+
+If you look at the dQ/dV data make sure to scale the plots right as there is still considerable noide in the data. We recooment to plot vs. the smoother Voltage profile which is in the Vsm key.
 
 ### Building my own
 Have a look at the stl files in the mechanical parts folder.
@@ -48,7 +63,11 @@ You will need
 7. Possibly our help
 8. A very large glovebox
 
-Please reach out to us if you are planning to set one up in your lab. The GUI Bojing wrote makes a lot of the aligning tasks a lot easier (you will need this too).
+Please reach out to us if you are planning to set one up in your lab as there are some practical issues to be considered like the Athmosphere of your glovebox. We recommend to not use Argon as robots can fail very fast due to overheating issues. The GUI Bojing wrote makes a lot of the aligning tasks a lot easier (you will need this too).
+
+Consider getting a glovebox with forced laminar flow as otherwise there can be issues of trapped gases.
+
+The crimper is typically quite heavy and does not need to be fixed additonally. Overall you "just" need to assemble all parts and teach the robot the positions. We taught the robot ALL prositions manually.
 
 
 ### Lurking
