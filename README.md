@@ -44,7 +44,7 @@ Ok let's say we want to see the voltage profile of cell 42 the we do this:
 import pickle
 data = pickle.load(open(r'/path/to/the/file/cell_data_published.pck','rb'))
 
-plt.plot(data[42]['t'],data[42]['I'])
+plt.plot(data[42]['t'],data[42]['V'])
 plt.xlabel('Time [s]')
 plt.ylabel('Voltage [V]')
 ```
