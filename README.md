@@ -93,3 +93,8 @@ AutoBaSS.py script can automatically guide you through the procedure from scratc
     Click "Initialize system" and wait for the progress bar to finish
     Type in the position of cell you want to start and to finish in numbers (No.1 refers to the cell on the up-left corner, No.64 refers to the one on the down-right corner)
     Click "Start Assembly" and the procedure will start
+
+
+## Acknowledgements
+
+This project has received funding from the European Union’s [Horizon 2020 research and innovation programme](https://ec.europa.eu/programmes/horizon2020/en) under grant agreement [No 957189](https://cordis.europa.eu/project/id/957189).
