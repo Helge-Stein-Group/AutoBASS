@@ -1,7 +1,7 @@
 # :battery: + :robot: + :factory: = AutoBASS 
 AutoBASS deploys Automated Battery Assembly System. The motivation of this project is to meet the need of scaling-up and accuate assembly of in-house i.e. non-commercially acquired cells in battery reaserach, therefore enables the data-driven studies on optimization of active materials, electrolyte formulations, processing and manufacturing in a reproducible manner for the investigation of new chemistries.
 
-![](figure1.png)
+![](AutoBASS_2.0.png)
 
 ## What are you here for?
 
